@@ -13,11 +13,14 @@
   "devDependencies": {
     "prettier": "^1.15.1",
     "rollup": "^0.67.0",
-    "rollup-plugin-terser": "^3.0.0"
+    "rollup-plugin-terser": "^3.0.0",
+    "mocha": "^5.2.0",
+    "puppeteer-core": "^1.10.0"
   },
   "scripts": {
     "build": "rollup -c",
-    "format": "prettier"
+    "format": "prettier",
+    "test": "mocha"
   },
   "dependencies": {}
 }
