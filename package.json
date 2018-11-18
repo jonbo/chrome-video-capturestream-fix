@@ -1,6 +1,6 @@
 {
   "name": "chrome-video-capturestream-fix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fixes possible crashes caused by calling captureStream on a HTMLVideoElement with its src being a MediaSource in chrome.",
   "keywords": [
     "chrome",
@@ -11,11 +11,11 @@
   ],
   "main": "dist/videoCaptureStreamFix.umd.js",
   "devDependencies": {
-    "prettier": "^1.15.1",
-    "rollup": "^0.67.0",
-    "rollup-plugin-terser": "^3.0.0",
     "mocha": "^5.2.0",
-    "puppeteer-core": "^1.10.0"
+    "prettier": "^1.15.1",
+    "puppeteer-core": "^1.10.0",
+    "rollup": "^0.67.0",
+    "rollup-plugin-terser": "^3.0.0"
   },
   "scripts": {
     "build": "rollup -c",
