@@ -22,5 +22,6 @@
     "format": "prettier",
     "test": "mocha"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "license": "MIT"
 }
